@@ -1,0 +1,23 @@
+{
+  "name": "apig-dynamodb-primary-composite-cognito",
+  "version": "1.0.0",
+  "author": "cosmicd",
+  "license": "MIT",
+  "private": true,
+  "description": "apigateway-lambda stack; dependency: dynamodb table and cognito",
+  "scripts": {
+    "test": "TableName=yourTableName TableRegion=yourTableRegion node tests/functions.test.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "serverless-webpack": "^4.2.0",
+    "webpack": "^3.10.0",
+    "aws-sdk": "^2.185.0",
+    "uuid": "^3.2.1"
+  }
+}

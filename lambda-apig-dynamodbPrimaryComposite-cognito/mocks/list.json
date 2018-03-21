@@ -1,0 +1,10 @@
+{
+  "headers": {
+    "origin": "http://localhost:3000"
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "test-user-id"
+    }
+  }
+}

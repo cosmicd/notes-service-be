@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "origin": "http://localhost:3000"
+  },
+  "pathParameters": {
+    "id": ""
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "test-user-id"
+    }
+  }
+}

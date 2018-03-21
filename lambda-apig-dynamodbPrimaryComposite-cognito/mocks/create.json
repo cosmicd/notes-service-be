@@ -1,0 +1,11 @@
+{
+  "headers": {
+    "origin": "http://localhost:3000"
+  },
+  "body": "{\"content\":\"hello world\",\"attachment\":\"hello.jpg\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "test-user-id"
+    }
+  }
+}

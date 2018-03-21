@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "origin": "http://localhost:3000"
+  },
+  "body": "{\"content\":\"new world\",\"attachment\":\"new.jpg\"}",
+  "pathParameters": {
+    "id": ""
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "test-user-id"
+    }
+  }
+}
